@@ -1,0 +1,7 @@
+{
+	"terminal.integrated.shellIntegration.history": 0,
+	"files.exclude": {
+		"**/.git": true,
+		"**/node_modules": true
+	}
+}
