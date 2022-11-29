@@ -41,4 +41,11 @@ module.exports = async function (app,) {
 		res.json(result);
 	});
 
+	app.get('/test', async (req, res) => {
+		//console.log(result);
+		const result = ""
+		res.json(result);
+	});
+
+
 };
