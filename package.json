@@ -1,16 +1,16 @@
 {
-  "name": "ntunhsatm",
+  "name": "apiweb",
   "version": "1.0.0",
-  "description": "create a HTTP Server to demostrate an ATM database",
+  "description": "create a API HTTP Server",
   "main": "server.js",
   "scripts": {
     "build": "node ./server.js"
   },
   "keywords": [
-    "Database",
-    "NTUNHS"
+    "API",
+	"HTTP Server"
   ],
-  "author": "C.Y. Lien",
+  "author": "Codesss",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.4",
