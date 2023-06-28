@@ -19,7 +19,7 @@ table.id = "table";
 
 
 //------------------ table title --------------------------------
-const label = ['name', 'port', 'target', 'description'];
+const label = ['description', 'target', 'port'];
 
 const thead = document.createElement('thead');
 thead.className = "thead-dark";
@@ -43,12 +43,6 @@ label.forEach(title_item => {
 	headerTr.appendChild(th);
 })
 
-const en_title = document.createElement('th');
-en_title.scope = "col";
-en_title.style.fontSize = 'medium';
-en_title.style.textAlign = 'center';
-en_title.textContent = 'enable';
-headerTr.appendChild(en_title);
 
 thead.appendChild(headerTr);
 //----------------------------------------------------------------------
